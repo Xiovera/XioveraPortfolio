@@ -2,7 +2,11 @@ header {
 	.navbar{
 	background-color: black;
 	}
-	a{
+	a, .glyphicon{
 	color: $color-principal;
+	}
+	.logo{
+	margin-left: 10px;
+	margin-bottom: 10px;
 	}
 }

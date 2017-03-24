@@ -9,16 +9,28 @@ $color-secundario: #ff00ff;
 	outline: 1px solid red;
 }
 
+
 h1{
 	font-family: $font-family1;
+	font-size: $font-size*5;
 	color: $color-secundario;
 }
-li, h3{
+h3{
 	font-family: $font-family2;
+	font-size: $font-size*3;
 }
-p{
+li{
+	font-family: $font-family2;
+	font-size: $font-size*2;
+}
+p, span{
 	font-family: $font-family3;
 }
+
 @import 'parciales/_header';
 @import 'parciales/_hero';
 @import 'parciales/_about';
+@import 'parciales/_skills';
+//@import 'parciales/_projects';
+//@import 'parciales/_contact';
+//@import 'parciales/_footer';

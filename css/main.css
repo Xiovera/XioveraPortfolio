@@ -3,18 +3,27 @@
 
 h1 {
   font-family: "Great Vibes", cursive;
+  font-size: 50px;
   color: #ff00ff; }
 
-li, h3 {
-  font-family: "Indie Flower", cursive; }
+h3 {
+  font-family: "Indie Flower", cursive;
+  font-size: 30px; }
 
-p {
+li {
+  font-family: "Indie Flower", cursive;
+  font-size: 20px; }
+
+p, span {
   font-family: "Pragati Narrow", sans-serif; }
 
 header .navbar {
   background-color: black; }
-header a {
+header a, header .glyphicon {
   color: #a758d2; }
+header .logo {
+  margin-left: 10px;
+  margin-bottom: 10px; }
 
 .hero-section {
   background: url(../img/fondooki.jpg) no-repeat center center;
@@ -24,22 +33,49 @@ header a {
   .hero-section .container-fluid {
     padding-bottom: 200px;
     padding-top: 200px; }
-  .hero-section h1 {
-    font-family: "Great Vibes", cursive;
-    color: white; }
-  .hero-section small {
+  .hero-section h1, .hero-section small {
     color: white; }
 
 .about-me {
   background-color: #a758d2; }
   .about-me h3 {
-    color: #ff00ff; }
-  .about-me p, .about-me h3 {
-    color: white;
-    padding-top: 20px;
-    padding-bottom: 20px; }
+    color: #ff00ff;
+    background-color: black; }
+  .about-me p {
+    color: white; }
   .about-me img {
-    padding: 40px;
-    margin-top: 60px; }
+    background-color: black;
+    padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  .about-me button {
+    margin-top: 30px; }
+
+.skills {
+  background-color: white; }
+  .skills h3 {
+    color: #ff00ff;
+    background-color: black; }
+  .skills span {
+    top: -30px;
+    left: 2%;
+    position: relative;
+    font-size: 10px;
+    font-weight: bolder;
+    font-family: "Indie Flower", cursive;
+    color: #fff; }
+  .skills progress {
+    background-color: #a758d2;
+    border: 0;
+    height: 2.5em;
+    width: 100%; }
+    .skills progress ::-webkit-progress-bar {
+      background-color: #329ad1; }
+    .skills progress ::-webkit-progress-bar {
+      background-color: #329ad1; }
+    .skills progress ::-webkit-progress-value {
+      background-color: #ff00ff; }
+    .skills progress ::-moz-progress-bar {
+      background-color: #ff00ff; }
 
 /*# sourceMappingURL=main.css.map */
