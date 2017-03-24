@@ -1,18 +1,45 @@
 * {
   outline: 1px solid red; }
 
-body {
-  font-size: 15px;
-  color: #a758d2; }
-
 h1 {
   font-family: "Great Vibes", cursive;
   color: #ff00ff; }
 
-li {
+li, h3 {
   font-family: "Indie Flower", cursive; }
 
 p {
   font-family: "Pragati Narrow", sans-serif; }
+
+header .navbar {
+  background-color: black; }
+header a {
+  color: #a758d2; }
+
+.hero-section {
+  background: url(../img/fondooki.jpg) no-repeat center center;
+  background-size: cover; }
+  .hero-section .fondo-oscuro {
+    background-color: rgba(32, 23, 3, 0.72); }
+  .hero-section .container-fluid {
+    padding-bottom: 200px;
+    padding-top: 200px; }
+  .hero-section h1 {
+    font-family: "Great Vibes", cursive;
+    color: white; }
+  .hero-section small {
+    color: white; }
+
+.about-me {
+  background-color: #a758d2; }
+  .about-me h3 {
+    color: #ff00ff; }
+  .about-me p, .about-me h3 {
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+  .about-me img {
+    padding: 40px;
+    margin-top: 60px; }
 
 /*# sourceMappingURL=main.css.map */
