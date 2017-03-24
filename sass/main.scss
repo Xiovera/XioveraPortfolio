@@ -1,0 +1,25 @@
+$font-size: 15px;
+$font-family1: 'Great Vibes', cursive;
+$font-family2: 'Indie Flower', cursive;
+$font-family3: 'Pragati Narrow', sans-serif;
+$color-principal: #a758d2;
+$color-secundario: #ff00ff;
+*{
+	outline: 1px solid red;
+}
+
+body{
+	font-size: $font-size;
+	color: $color-principal;
+	
+}
+h1{
+	font-family: $font-family1;
+	color: $color-secundario;
+}
+li{
+	font-family: $font-family2
+}
+p{
+	font-family: $font-family3
+}
