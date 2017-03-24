@@ -9,7 +9,12 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
   	<script src="js/bootstrap.min.js"></script>
   	<link rel="stylesheet" href="css/main.css" type="text/css">
-  	<link href="https://fonts.googleapis.com/css?family=Clicker+Script|Indie+Flower|Pragati+Narrow" rel="stylesheet">	
+  	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/revealer.css" />
+	<link rel="stylesheet" type="text/css" href="css/pater.css" />
+  	<link href="https://fonts.googleapis.com/css?family=Clicker+Script|Indie+Flower|Pragati+Narrow" rel="stylesheet">
+  	<script>document.documentElement.className = 'js';</script>	
 </head>
 <body>
 	<header>
@@ -42,9 +47,11 @@
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-12 text-center">
-						<div class="option animated bounceInLeft text-center">
-							<h1>Rocio Yovera</h1>
-							<small>Desarrolladora web & Ingeniera Industrial</small>
+						<div class=" text-center">
+							<h2 class="content__title content__title--center">
+							<div id="rev-1" class="content__title__inner">Rocio Yovera</div><br/>
+							<div id="rev-2" class="content__title__inner content__title__inner--offset-1"><small>Desarrolladora web & Ingeniera Industrial</small></div>
+							</h2>							
 						</div>					
 					</div>
 				</div>
@@ -58,7 +65,7 @@
 			<div class="row">
 				<div class="col-md-4 col-sm-4 col-xs-12">
 					<div>
-						<img src="img/profile.png" alt="profile" class="option animated pulse img-responsive">
+						<img src="img/profile.png" alt="profile" class="img-responsive">
 					</div>				
 				</div>
 				<div class="col-md-8 col-sm-8 col-xs-12">
@@ -105,11 +112,82 @@
 	</section>
 	<!----------- end skills section------>
 	<section class="proyects" id="proyects">
-			
+	<div class="container">
+	<h3 class="text-center">Proyectos</h3>
+		<div class="row">
+			<div class="text-center col-md-3 col-sm-3 col-xs-12">
+				<a href=""><img height="60px" class="img-responsive" src="img/republica.png" alt="republica"></a>
+			</div>
+			<div class="text-center col-md-3 col-sm-3 col-xs-12">
+				<a href="https://xiovera.github.io/user-360/"><img height="60px" class="img-responsive" src="img/user.png" alt=""></a>
+			</div>		
+			<div class="text-center col-md-3 col-sm-3 col-xs-12">
+				<a href=" https://xiovera.github.io/Lyft/"><img height="60px" class="img-responsive" src="img/lyft.png" alt="lyft"></a>
+			</div>
+			<div class="text-center col-md-3 col-sm-3 col-xs-12">
+				<a href="https://xiovera.github.io/creamy-theme/"><img height="60px" class="img-responsive" src="img/creamy.png" alt="creamy"></a>
+			</div>
+		</div>
+	</div>			
 	</section>
 	<!----------- end proyects-section------>
 	<section class="contact" id="contact">
-				
+	<div class="container">
+		<h3 class="text-center">Contacto</h3>
+		<div class="row">
+			<div class="col-md-5 col-sm-5 col-xs-12">
+				<h4>
+					<p>Celular: 997066688</p>
+					<p>Email: rocioyovera@gmail.com</p>
+				</h4>
+				<div class="iconos">
+					<div class="col-md-4 col-sm-4 col-xs-4">
+						<a href="https://github.com/Xiovera"><img src="img/github.png" alt="gitgub" class="img-responsive"></a>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-4">
+						<a href="https://www.linkedin.com/in/rocio-ericka-yovera-ruiz-80855620/"><img src="img/linkedin.jpg" alt="linkedin" class="img-responsive"></a>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-4">
+						<a href="#"><img src="img/gmail.png" alt="gmail" class="img-responsive"></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-7 col-sm-7 col-xs-12">
+				<form class="form-horizontal">
+				  <div class="form-group">
+				    <label for="inputName" class="col-sm-2 control-label">Nombre:</label>
+				    <div class="col-sm-10">
+				      <input type="name" class="form-control" id="inputEmail3" placeholder="Nombre y Apellido">
+				    </div>
+				  </div>
+				  <div class="form-group">
+				    <label for="inputEmail" class="col-sm-2 control-label">Email:</label>
+				    <div class="col-sm-10">
+				      <input type="email" class="form-control" id="inputEmail" placeholder="example@example.com">
+				    </div>
+				  </div>
+				  <div class="form-group">
+				    <label for="inputAsunto" class="col-sm-2 control-label">Asunto:</label>
+				    <div class="col-sm-10">
+				      <input type="text" class="form-control" id="inputText" placeholder="">
+				    </div>
+				  </div>
+				  <div class="form-group">
+				    <label for="inputMensaje" class="col-sm-2 control-label">Mensaje:</label>
+				    <div class="col-sm-10">
+				      <textarea class="form-control" rows="6"></textarea>
+				    </div>
+				  </div> 
+
+				  <div class="form-group">
+				    <div class="col-sm-offset-2 col-sm-10">
+				      <button type="submit" class="btn btn-default">Enviar</button>
+				    </div>
+				  </div>
+				</form>
+			</div>
+		</div>
+	</div>				
 	</section>
 	<!----------- end contact------>
 <footer>
@@ -121,8 +199,45 @@
 		</div>			
 	</div>		
 </footer>
+
+	<script src="js/anime.min.js"></script>
+	<script src="js/main.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 	<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
 	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->	
+	<script>
+		(function() {
+			// Fake loading.
+			setTimeout(init, 1000);
+
+			function init() {
+				document.body.classList.remove('loading');
+
+				//************************ Example 1 - reveal on load ********************************
+				
+				var rev1 = new RevealFx(document.querySelector('#rev-1'), {
+					revealSettings : {
+						bgcolor: '#ff00ff',
+						onCover: function(contentEl, revealerEl) {
+							contentEl.style.opacity = 1;
+						}
+					}
+				});
+				rev1.reveal();
+
+				var rev2 = new RevealFx(document.querySelector('#rev-2'), {
+					revealSettings : {
+						bgcolor: '#a758d2',
+						delay: 250,
+						onCover: function(contentEl, revealerEl) {
+							contentEl.style.opacity = 1;
+						}
+					}
+				});
+				rev2.reveal();
+			}
+		})();
+		</script>
+
 </body>
 </html>

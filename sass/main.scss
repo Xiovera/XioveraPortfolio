@@ -5,11 +5,6 @@ $font-family3: 'Pragati Narrow', sans-serif;
 $color-principal: #a758d2;
 $color-secundario: #ff00ff;
 
-*{
-	outline: 1px solid red;
-}
-
-
 h1{
 	font-family: $font-family1;
 	font-size: $font-size*5;
@@ -18,6 +13,8 @@ h1{
 h3{
 	font-family: $font-family2;
 	font-size: $font-size*3;
+	background-color: black;
+	text-align: center;
 }
 li{
 	font-family: $font-family2;
@@ -31,6 +28,6 @@ p, span{
 @import 'parciales/_hero';
 @import 'parciales/_about';
 @import 'parciales/_skills';
-//@import 'parciales/_projects';
-//@import 'parciales/_contact';
-//@import 'parciales/_footer';
+@import 'parciales/_proyects';
+@import 'parciales/_contact';
+@import 'parciales/_footer';
